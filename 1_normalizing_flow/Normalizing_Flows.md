@@ -62,11 +62,13 @@ Normalizing Flows (**NF**) is then coming to achieve complex distribution densit
 
 **（1）** **Figure 1**中针对任意一次变量转换，
 
+```math
 $$
 \mathbf{z}_{i} = f(\mathbf{z}_{i-1}) \\
 \mathbf{z}_{i-1} = f^{-1}(\mathbf{z}_{i}) \\
 p_{i}(\mathbf{z}_{i}) = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right| = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right|
 $$
+```
 
 这里雅可比行列式中 $\partial f_{i}^{-1}$ 没有显式的形式，计算起来并不方便，因此我们对其做一些变换，
 
