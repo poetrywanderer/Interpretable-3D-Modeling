@@ -63,7 +63,7 @@ Normalizing Flows (**NF**) is then coming to achieve complex distribution densit
 **（1）** **Figure 1**中针对任意一次变量转换，
 
 $$
-\mathbf{z}_{i}=f(z_{i})
+\mathbf{z}_{i}=f(z_1)
 $$
 
 这里雅可比行列式中 $\partial f_{i}^{-1}$ 没有显式的形式，计算起来并不方便，因此我们对其做一些变换，
