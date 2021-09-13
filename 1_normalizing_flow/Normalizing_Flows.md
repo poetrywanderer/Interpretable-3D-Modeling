@@ -10,7 +10,8 @@ Statistical ML is all about probability.
 
 ### Jacobian Matrix and Determinant
 
-对于一个函数组映射: $f:\mathbb{R}^n \rightarrow \mathbb{R}^n$, 有$y_{1:n}=f_{1:n}(x_{1:n})$, **Jacobian Matrix**为该映射函数组的一阶偏导，其中$J_{ij}=\frac{\partial f_{i}}{\partial x_{j}}$, 
+对于一个函数组映射: $f:\mathbb{R}^n \rightarrow \mathbb{R}^n$ , 有 $y_{1:n}=f_{1:n}(x_{1:n})$, **Jacobian Matrix**为该映射函数组的一阶偏导，其中 $J_{ij}=\frac{\partial f_{i}}{\partial x_{j}}$ , 
+
 $$
 \Large
 \mathbf{J} = \left[ 
@@ -33,6 +34,7 @@ $$
               \end{array}
              \right]
 $$
+
 其行列式写作 $det(\mathbf{J})$为一个具体的数（计算方法略）, 注意只有方阵**sqare matrix** 才有行列式。
 
 ### Change of Variable Theorem
@@ -59,12 +61,15 @@ Normalizing Flows (**NF**) is then coming to achieve complex distribution densit
 <center>Figure 1. NF 模型的 forward propagation 示意图, 图来自[1]
 
 **（1）** **Figure 1**中针对任意一次变量转换，
+	
 $$
 \mathbf{z}_{i} = f(\mathbf{z}_{i-1}) \\
 \mathbf{z}_{i-1} = f^{-1}(\mathbf{z}_{i}) \\
 p_{i}(\mathbf{z}_{i}) = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right| = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right|
 $$
+	
 这里雅可比行列式中 $\partial f_{i}^{-1}$ 没有显式的形式，计算起来并不方便，因此我们对其做一些变换，
+	
 $$
 \begin{align}
 \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right| 
@@ -73,11 +78,14 @@ $$
 &= \left| \mathsf{det}\frac{\partial f_{i}}{\partial \mathbf{z}_{i-1}} \right|^{-1} \hspace{20mm}; because\space \mathsf{det} \mathbf{M}^{-1} = (\mathsf{det} \mathbf{M})^{-1}
 \end{align}
 $$
+	
 因此，上述公式可写作，
+	
 $$
 p_{i}(\mathbf{z}_{i}) = p_{i-1}(f^{-1}(\mathbf{z}_{i})) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right| 
 = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}}{\partial \mathbf{z}_{i-1}} \right|^{-1}
 $$
+	
 两边取对数，
 $$
 {\rm log\space} p_{i}(\mathbf{z}_{i})
