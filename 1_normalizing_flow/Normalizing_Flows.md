@@ -2,6 +2,8 @@
 
 **Normalizing Flows** (vs **VAE** vs **GAN**)
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 ## 1. Introduction
 
 Statistical ML is all about probability. 
