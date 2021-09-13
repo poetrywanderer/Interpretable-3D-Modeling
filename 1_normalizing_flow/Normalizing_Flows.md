@@ -62,6 +62,7 @@ Normalizing Flows (**NF**) is then coming to achieve complex distribution densit
 
 **（1）** **Figure 1**中针对任意一次变量转换，
 
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 $$
 \mathbf{z}_{i}=f ( z_{1} )
 $$
