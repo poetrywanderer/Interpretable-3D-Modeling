@@ -56,7 +56,7 @@ Normalizing Flows (**NF**) is then coming to achieve complex distribution densit
 
 <img src="https://lilianweng.github.io/lil-log/assets/images/normalizing-flow.png" alt="Normalizing flow" style="zoom:80%;" />
 
-<center>Figure 1. NF 模型的 forward propagation 示意图, 图来自[1]
+<center>Figure 1. NF 模型的 forward propagation 示意图, 图来自[1]<center>
 
 （1）Figure 1中针对任意一次变量转换，
 $$
