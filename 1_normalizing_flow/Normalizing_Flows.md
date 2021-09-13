@@ -61,15 +61,15 @@ Normalizing Flows (**NF**) is then coming to achieve complex distribution densit
 <center>Figure 1. NF 模型的 forward propagation 示意图, 图来自[1]
 
 **（1）** **Figure 1**中针对任意一次变量转换，
-	
+
 $$
 \mathbf{z}_{i} = f(\mathbf{z}_{i-1}) \\
 \mathbf{z}_{i-1} = f^{-1}(\mathbf{z}_{i}) \\
 p_{i}(\mathbf{z}_{i}) = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right| = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right|
 $$
-	
+
 这里雅可比行列式中 $\partial f_{i}^{-1}$ 没有显式的形式，计算起来并不方便，因此我们对其做一些变换，
-	
+
 $$
 \begin{align}
 \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right| 
@@ -78,20 +78,23 @@ $$
 &= \left| \mathsf{det}\frac{\partial f_{i}}{\partial \mathbf{z}_{i-1}} \right|^{-1} \hspace{20mm}; because\space \mathsf{det} \mathbf{M}^{-1} = (\mathsf{det} \mathbf{M})^{-1}
 \end{align}
 $$
-	
+
 因此，上述公式可写作，
-	
+
 $$
 p_{i}(\mathbf{z}_{i}) = p_{i-1}(f^{-1}(\mathbf{z}_{i})) \left| \mathsf{det}\frac{\partial f_{i}^{-1}}{\partial \mathbf{z}_{i}} \right| 
 = p_{i-1}(\mathbf{z}_{i-1}) \left| \mathsf{det}\frac{\partial f_{i}}{\partial \mathbf{z}_{i-1}} \right|^{-1}
 $$
-	
+
 两边取对数，
+
 $$
 {\rm log\space} p_{i}(\mathbf{z}_{i})
 = {\rm log\space} p_{i-1}(\mathbf{z}_{i-1}) - {\rm log\space} \left| \mathsf{det}\frac{\partial f_{i}}{\partial \mathbf{z}_{i-1}} \right|
 $$
+
 **（2）** **Figure 1**中连续地运用一系列的可逆映射函数，最终的变量的密度函数可以由下式计算，
+
 $$
 \mathbf{z}_{K} = f_{K}\circ f_{K-1}\circ \cdots \circ f_{1}(\mathbf{z}_{0})\\
 \begin{align}
@@ -101,6 +104,7 @@ $$
 &= {\rm log\space} p_{0}(\mathbf{z}_{0}) - \sum_{i=1}^K {\rm log\space} \left| \mathsf{det}\frac{\partial f_{i}}{\partial \mathbf{z}_{i-1}} \right|
 \end{align}
 $$
+
 由此可见，计算最终的概率密度函数的关键在于 映射函数 $f_{1:D}$ 的选择，而$f_{1:D}$需要满足以下条件:
 
 1. 可逆
