@@ -5,12 +5,21 @@ Each paper summary is under Issues.
 - Papers I intend to start soon are labeled TODO
 - Process is labeled by percentage 30%, 50%, 80%, 100%
 
-## ■ NeRF uncertainty
+## 3D Vision Tasks
 
-### ◎ Stochastic Neural Radiance Fields
+### Novel View Synthesis (NVS)
+
+### Multi View Stereo (MVS) 
+
+- [NeuralMVS: Bridging Multi-View Stereo and Novel
+View Synthesis](https://arxiv.org/pdf/2108.03880.pdf) (distinguish MVS from NVS)
+
+## Uncertainty related 
+
+### Stochastic Neural Radiance Fields
 Paper under review
 
-### ◎ Next work
+### Next work
 
 - use **Normalizing Flow** to learn complex joint probability distribution
 
@@ -21,6 +30,7 @@ Paper under review
   related blog:
 
   - [Normalizing Flows Tutorial by Eric Jang](https://blog.evjang.com/2018/01/nf2.html)
+
 
 ## ■ Reference site
 ### ◎ Convenient sites
