@@ -15,7 +15,6 @@ Each paper summary is under Issues.
 View Synthesis](https://arxiv.org/pdf/2108.03880.pdf) (distinguish MVS from NVS)
 
 ## Uncertainty related 
-<hr />
 
 ### Already Published
 
