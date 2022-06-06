@@ -16,7 +16,9 @@ View Synthesis](https://arxiv.org/pdf/2108.03880.pdf) (distinguish MVS from NVS)
 
 ## Uncertainty related 
 
-### Already Published
+### Theorey building
+
+Already Published:
 
 Stochastic Neural Radiance Fields:
 
@@ -26,9 +28,11 @@ Stochastic Neural Radiance Fields:
 
 ### Next work
 
+uncertainty [application](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/Uncertainty_applications.md):
+
 - choose [faster nerf framework](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/Faster-NeRF/Faster_NeRF.md)(TODO) to achieve real time uncertainty estimation
 
-- achieve [active learning](dsa)(TODO) using uncertainty 
+- achieve [active learning](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/Uncertainty_applications.md)(TODO) using uncertainty 
 
 ## ■ Reference site
 ### ◎ Convenient sites
