@@ -15,22 +15,21 @@ Each paper summary is under Issues.
 View Synthesis](https://arxiv.org/pdf/2108.03880.pdf) (distinguish MVS from NVS)
 
 ## Uncertainty related 
+<hr />
 
-### Stochastic Neural Radiance Fields
-Paper under review
+### Already Published
+
+Stochastic Neural Radiance Fields:
+
+- [Stochastic Neural Radiance Fields: Quantifying Uncertainty in Implicit 3D Representations](https://arxiv.org/abs/2109.02123)
+
+- [Conditional-Flow NeRF: Accurate 3D Modelling with Reliable Uncertainty Quantification](https://arxiv.org/abs/2203.10192)
 
 ### Next work
 
-- use **Normalizing Flow** to learn complex joint probability distribution
+- choose [faster nerf framework](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/Faster-NeRF/Faster_NeRF.md)(TODO) to achieve real time uncertainty estimation
 
-  related paper: 
-
-  - [Variational Inference with Normalizing Flows](https://arxiv.org/abs/1505.05770)
-
-  related blog:
-
-  - [Normalizing Flows Tutorial by Eric Jang](https://blog.evjang.com/2018/01/nf2.html)
-
+- achieve [active learning](dsa)(TODO) using uncertainty 
 
 ## ■ Reference site
 ### ◎ Convenient sites
