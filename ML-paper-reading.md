@@ -1,3 +1,3 @@
 # Machine-Learning-paper-reading
 
-:dart:
+:dart: Collecting interesting ideas and the involoved mathematics
