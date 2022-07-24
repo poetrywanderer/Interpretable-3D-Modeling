@@ -4,6 +4,7 @@
 
 paper reading:
 - iMAP: Implicit Mapping and Positioning in Real-Time [[Project](https://edgarsucar.github.io/iMAP/)] (see issues)
+- Active View Planning for Radiance Fields [[Paper](https://imrss2022.github.io/contributions/lin.pdf)]
 
 
 ### Uncertainty-aware reconstruction
