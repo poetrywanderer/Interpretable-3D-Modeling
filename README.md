@@ -22,9 +22,9 @@ Already Published:
 
 Stochastic Neural Radiance Fields:
 
-- [Stochastic Neural Radiance Fields: Quantifying Uncertainty in Implicit 3D Representations](https://arxiv.org/abs/2109.02123)
+- [Stochastic Neural Radiance Fields: Quantifying Uncertainty in Implicit 3D Representations](https://arxiv.org/abs/2109.02123) (3DV 2021)
 
-- [Conditional-Flow NeRF: Accurate 3D Modelling with Reliable Uncertainty Quantification](https://arxiv.org/abs/2203.10192)
+- [Conditional-Flow NeRF: Accurate 3D Modelling with Reliable Uncertainty Quantification](https://arxiv.org/abs/2203.10192) (ECCV 2022)
 
 ### Next work
 
