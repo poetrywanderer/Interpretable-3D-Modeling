@@ -9,7 +9,7 @@ Each paper summary is under Issues.
 
 ### NeRF related
 
-[Progress in NeRF](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/NeRF-reading-list.md.md)
+[Progress in NeRF](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/NeRF-reading-list.md)
 
 ### 3D Vision Tasks
 
