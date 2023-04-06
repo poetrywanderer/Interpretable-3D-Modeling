@@ -5,16 +5,22 @@ Each paper summary is under Issues.
 - Papers I intend to start soon are labeled TODO
 - Process is labeled by percentage 30%, 50%, 80%, 100%
 
-## 3D Vision Tasks
+## Related Work
 
-### Novel View Synthesis (NVS)
+### NeRF related
 
-### Multi View Stereo (MVS) 
+[Progress in NeRF](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/NeRF_related_work.md)
+
+### 3D Vision Tasks
+
+#### Novel View Synthesis (NVS)
+
+#### Multi View Stereo (MVS) 
 
 - [NeuralMVS: Bridging Multi-View Stereo and Novel
 View Synthesis](https://arxiv.org/pdf/2108.03880.pdf) (distinguish MVS from NVS)
 
-## Uncertainty related 
+### Uncertainty related 
 
 ### Theorey building
 
