@@ -17,5 +17,6 @@ issues lable: [Single-views](https://github.com/poetrywanderer/Interpretable-3D-
 - NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion (2023) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/13))
 
 ## NeRF on few images
+issues lable: [few-views](https://github.com/poetrywanderer/Interpretable-3D-Modeling/labels/few-shot)
 
 - FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization (CVPR 2023) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/16))
