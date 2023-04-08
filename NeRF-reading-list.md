@@ -8,7 +8,8 @@ paper reading: (order by time)
 - [FastNeRF: High-Fidelity Neural Rendering at 200FPS](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/8) (ICCV2021)
 - 
 
-## NeRF by few images
+## NeRF by single images 
+[Single-views](https://github.com/poetrywanderer/Interpretable-3D-Modeling/labels/single-view)
 
 - SinNeRF: Training Neural Radiance Fields on Complex Scenes from a Single Image.
 - pixelNeRF: Neural Radiance Fields from One or Few Images (CVPR 2021) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/14))
