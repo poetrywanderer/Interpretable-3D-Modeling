@@ -7,8 +7,6 @@ Each paper summary is under Issues.
 
 ## Related Work
 
-### NeRF related
-
 [Progress in NeRF](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/NeRF-reading-list.md)
 
 ### 3D Vision Tasks
@@ -20,7 +18,7 @@ Each paper summary is under Issues.
 - [NeuralMVS: Bridging Multi-View Stereo and Novel
 View Synthesis](https://arxiv.org/pdf/2108.03880.pdf) (distinguish MVS from NVS)
 
-### Uncertainty related 
+[Uncertainty in 3D](https://github.com/poetrywanderer/Interpretable-3D-Modeling/blob/main/Uncertainty-in-3D.md)
 
 ### Theorey building
 
