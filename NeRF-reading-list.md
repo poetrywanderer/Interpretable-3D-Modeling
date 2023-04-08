@@ -15,7 +15,7 @@ issues lable: [Single-shot](https://github.com/poetrywanderer/Interpretable-3D-M
 - VisionNeRF: Vision Transformer for NeRF-Based View Synthesis from a Single Input Image (WACV 2023) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/15))
 - NerfDiff: Single-image View Synthesis with NeRF-guided Distillation from 3D-aware Diffusion (2023) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/13))
 
-## NeRF on few images
-issues lable: [few-shot](https://github.com/poetrywanderer/Interpretable-3D-Modeling/labels/few-shot)
+## NeRF on Few images
+issues lable: [Few-shot](https://github.com/poetrywanderer/Interpretable-3D-Modeling/labels/Few-shot)
 
 - FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization (CVPR 2023) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/16))
