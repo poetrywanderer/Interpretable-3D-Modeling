@@ -19,3 +19,9 @@ issues lable: [Single-shot](https://github.com/poetrywanderer/Interpretable-3D-M
 issues lable: [Few-shot](https://github.com/poetrywanderer/Interpretable-3D-Modeling/labels/Few-shot)
 
 - FreeNeRF: Improving Few-shot Neural Rendering with Free Frequency Regularization (CVPR 2023) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/16))
+
+
+## Other interesting generalization using NeRF
+
+#### NeRF + Event Camera
+EventNeRF: Neural Radiance Fields from a Single Colour Event Camera (CVPR 2023) ([issue](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/17))
