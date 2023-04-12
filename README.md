@@ -1,9 +1,7 @@
 # Interpretable-3D-Modeling Research
 Personal repository to track my PhD research. Based on [Yagami360/MachineLearning-Papers_Survey](https://github.com/Yagami360/MachineLearning-Papers_Survey).
 
-Each paper summary is under Issues. 
-- Papers I intend to start soon are labeled TODO
-- Process is labeled by percentage 30%, 50%, 80%, 100%
+:dart: Try to write a issue for each paper!!
 
 ## Related Work
 
