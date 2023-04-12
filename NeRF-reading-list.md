@@ -1,5 +1,8 @@
 # NeRF paper reading list
 
+## Interesting repositories
+[Awesome-Implicit-NeRF-Robotics](https://github.com/zubair-irshad/Awesome-Implicit-NeRF-Robotics)
+
 ## Faster NeRF
 
 paper reading: (order by time)
