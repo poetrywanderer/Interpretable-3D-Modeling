@@ -16,5 +16,9 @@ Reconstruction with Implicit Neural Representations. [Paper](https://arxiv.org/p
 Reconstruction using Neural Radiance Fields. [Paper](https://arxiv.org/pdf/2209.08409.pdf)
 - [Arxiv 2023.7] Active Implicit Object Reconstruction using Uncertainty-guided Next-Best-View Optimziation. [Paper]()[Code]()
 
+### NeRF + Robot Navigation 
+- [RAL 2022] Vision-Only Robot Navigation in a Neural Radiance World. [Paper](https://arxiv.org/pdf/2110.00168.pdf)
+  **TLDR**: Based on a offine pre-trained NeRF model, introduce a trajectory optimization algorithm that avoids collisions with high-density regions
+
 Other fields:
 - [SLAM] iMAP: Implicit Mapping and Positioning in Real-Time [[Project](https://edgarsucar.github.io/iMAP/)] (see issues)
