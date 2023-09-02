@@ -15,7 +15,7 @@ Reconstruction with Implicit Neural Representations. [Paper](https://arxiv.org/p
 - [RAL 2023] Uncertainty Guided Policy for Active Robotic 3D
 Reconstruction using Neural Radiance Fields. [Paper](https://arxiv.org/pdf/2209.08409.pdf)
 - [RAL 2023] Active Implicit Object Reconstruction using Uncertainty-guided Next-Best-View Optimziation. [Paper](https://arxiv.org/pdf/2303.16739.pdf) [Code](https://github.com/HITSZ-NRSL/ActiveImplicitRecon)
-  **TLDR**: Depth supervision, 
+  **TLDR**: Depth supervision, bounded scenes, information entropy as uncertainty
 
 ### NeRF + Robot Navigation 
 - [RAL 2022] Vision-Only Robot Navigation in a Neural Radiance World. [Paper](https://arxiv.org/pdf/2110.00168.pdf)
