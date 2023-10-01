@@ -5,7 +5,8 @@
 Related papers: (In the order of time)
 - [ICRA 2016] An information gain formulation for active volumetric 3D reconstruction. [Paper](https://rpg.ifi.uzh.ch/docs/ICRA16_Isler.pdf)    
     **TLDR**: consider the problem of *Next Best Views* (NBV) selection, volumetric reconstruction of an object, using the *Information Gain* (IG) metric, 
-- [ECCV 2022] Active View Planning for Radiance Fields [Paper](https://imrss2022.github.io/contributions/lin.pdf)
+- [Arxiv 2022] Active View Planning for Radiance Fields [Paper](https://imrss2022.github.io/contributions/lin.pdf)
+- [ECCV 2022] ActiveNeRF: Learning where to See with Uncertainty Estimation [paper](https://www.semanticscholar.org/paper/ActiveNeRF%3A-Learning-where-to-See-with-Uncertainty-Pan-Lai/8db41f201351f1040af6e7e2f01af5e89ce250ba)
 - [Arxiv 2022.11] ActiveRMAP: Radiance Field for Active Mapping And Planning. [Paper](https://arxiv.org/pdf/2211.12656.pdf)
 - [ICRA 2023] Density-aware NeRF Ensembles: Quantifying Predictive Uncertainty in Neural Radiance Fields. [Paper](https://arxiv.org/pdf/2209.08718.pdf) (see issues)
 - [IROS 2023] NeU-NBV: Next Best View Planning Using Uncertainty Estimation
