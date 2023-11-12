@@ -2,7 +2,8 @@
 
 ## Interesting repositories
 [Awesome-Implicit-NeRF-Robotics](https://github.com/zubair-irshad/Awesome-Implicit-NeRF-Robotics)
-[NeRF & Beyond](https://github.com/yangjiheng/nerf_and_beyond_docs#nerf--medicalbiology)
+
+:fire: [NeRF & Beyond](https://github.com/yangjiheng/nerf_and_beyond_docs#nerf--medicalbiology)
 
 ## Faster NeRF
 
