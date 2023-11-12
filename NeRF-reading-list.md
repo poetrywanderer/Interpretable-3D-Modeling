@@ -6,7 +6,7 @@
 
 ## Faster NeRF
 
-:fire: [repository source] https://github.com/yangjiheng/nerf_and_beyond_docs#nerf-training-and-rendering-speed-enhancements
+:fire: [repository source](https://github.com/yangjiheng/nerf_and_beyond_docs#nerf-training-and-rendering-speed-enhancements)
 
 paper reading: (order by time)
 - [Neural Sparse Voxel Fields (NSVF)](https://github.com/poetrywanderer/Interpretable-3D-Modeling/issues/7) (NeurlPS 2020)
